@@ -15,15 +15,19 @@ let _api = axios.create({
 
 export default new Vuex.Store({
   state: {
+    photos: []
   },
   mutations: {
+    setPhotos(state, photos) {
+      state.photos = photos
+    }
   },
   actions: {
     async getPhotos({ commit, dispatch }) {
       try {
-        let res = await _api.get()
+        let res = await _api.get("")
         console.log (res.data)
-        // dispatch('getPhotos')
+        commit('setPhotos', res.data)
       } catch (error) {
         console.error(error);
         
