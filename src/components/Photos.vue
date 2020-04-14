@@ -5,7 +5,7 @@
           NASA Photo of the Day
       </div>
     </div>
-    <div class="col-12">
+    <div class="bg-dark col-12">
       <photo></photo>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="home container-fluid bg-light">
+  <div class="home container-fluid">
     <div class="row">
 
       <Photos></Photos>
