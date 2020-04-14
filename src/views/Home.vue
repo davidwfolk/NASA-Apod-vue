@@ -1,6 +1,7 @@
 <template>
-  <div class="home container-fluid">
+  <div class="home container-fluid bg-light">
     <div class="row">
+
       <Photos></Photos>
     </div>
   </div>
